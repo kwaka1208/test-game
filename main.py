@@ -11,6 +11,11 @@ ROOMS = {
     },
 }
 
+ERRORS = {
+   "no_exit": "You cannot go {direction} from here. Look at the room description for the exits.",
+   "no_way": "You cannot go {direction} from here. Look at the room description for the exits.",
+   "no_yay": "You cannot go {direction} from here. Look at the room description for the exits.",
+}
 
 def main():
     current = "hall"
