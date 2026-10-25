@@ -16,6 +16,9 @@ ERRORS = {
    "no_way": "You cannot go {direction} from here. Look at the room description for the exits.",
    "no_yay": "You cannot go {direction} from here. Look at the room description for the exits.",
 }
+print(ERRORS["no_exit"].format(direction=direction))
+print(ERRORS["no_way"].format(direction=direction))
+print(ERRORS["no_yay"].format(direction=direction))
 
 def main():
     current = "hall"
