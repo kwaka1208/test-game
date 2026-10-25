@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in the game does not work.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you type? Write each step on a new line.
+      placeholder: |
+        1. Run `python main.py`
+        2. Type `go north`
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened? Paste the error message if there is one.
+      render: text
+    validations:
+      required: true
